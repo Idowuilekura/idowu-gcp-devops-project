@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/ileksidowu/gcpdevops
+        image: gcr.io/ileksidowu/gcpdevops-dev:latest
         resources:
           limits:
             memory: "128Mi"
